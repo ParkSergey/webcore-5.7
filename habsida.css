@@ -1,0 +1,212 @@
+
+@font-face{
+    font-family:'BarlowThin';
+    src:
+    local("Barlow-Thin.otf");
+    font-weight: normal;
+    font-style: normal;
+        ;
+}
+@font-face{
+    font-family: "BarlowBold";
+    src: local("Barlow-Extra Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+body{
+    color: #2A4A5C;
+    background-color: #EFF6FF;
+}
+.containerimage{
+    position: relative;
+}
+.image1{
+position: absolute;
+top: 0;
+left: 0;
+
+}
+.image2{
+    transform:scale(0.15);
+    position:relative;
+    top: -600px;
+    left: -400px
+}
+.container{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100%;
+  margin-right: 100px;
+}
+.image{
+    flex: 1;
+    width: 100vh;
+    height:100%;
+    margin-right: 20px;
+    align-self: center;
+    flex-basis: 200px;
+
+}
+.rightside{
+    flex: 1;
+    max-width: 50%;
+width:auto;
+height: auto;
+margin-right: 0;
+align-self: stretch;
+flex-shrink: 0;
+}
+h1, h2{
+    font-family: "BarlowBold",sans-serif;
+    margin-left: 20px;
+}
+body{
+    font-family: 'BarlowThin',sans-serif;
+}
+p{
+    font-family: 'BarlowThin',sans-serif;
+    font-size: 1.5rem;
+}
+.facebook{
+    font-size: 20px;
+    display: inline-block;
+    background-color: #255A9B;
+    color: white;
+    box-shadow: none;
+    border: 0;
+    background-image: url(facebook.svg);
+    background-repeat: no-repeat;
+    background-size: 30px 40px;
+    background-position: left center;
+    width: 400px;
+    height: 60px;
+    margin-left: 20px;
+}
+.Linkedin{
+    font-size: 20px;
+    display: inline-block;
+    background-color: #0076B6;
+    color: white;
+    box-shadow: none;
+    border: 0;
+    background-image: url(linkedin.svg);
+    background-repeat: no-repeat;
+    background-size: 30px 40px;
+    background-position: 10px center;
+    width: 400px;
+    height: 60px; 
+    margin: 50px 30px ;  
+    margin-left: 20px;
+}
+.horizont{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    margin: 40px 260px;
+}
+.horizont::before,
+.horizont::after{
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+    margin: 0px 10px;
+}
+.horizont span{
+  white-space: nowrap;
+  font-size: large;
+  color:#000;
+}
+.formgroup{
+    position: relative;
+}
+.email{
+    position: relative;
+    top: -350px;
+    left: -80px;
+    height: 80px;
+    width: 370px;
+    line-height: 1.5;
+    padding-top: 0px;
+    padding-left: 10px;
+    margin: 400px 500px;
+    margin-left: 100px;
+    border-left-color: #3698FB;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+}
+.phone{
+    border: none;
+    position: relative;
+    top: -840px;
+    left: 350px;
+    line-height: 1.5;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-right: 90px;
+    padding-left: 10px;
+    height: 80px;
+    width: 400px;  
+    margin: 10px 100px ; 
+}
+.labelemail{
+    color: #AFAFAF;
+    position:relative;
+    top: -370px;
+    left:-940px;
+    order: 1;
+    z-index: 2;
+}
+.label2{
+    color: #AFAFAF;
+    position: relative;
+    top: -860px;
+    left: -140px;
+    z-index: 3;
+}
+.top{
+    position: relative;
+    top: -800px;
+    left: 0px;
+}
+h2{
+    position: relative;
+}
+.typeinvestor{
+    font-size: 1.1rem;
+    margin-left: 20px;;
+}
+span.text{
+    margin-left: 20px;  
+}
+.radio{
+    display: flex;
+    gap: 140px;
+    margin-left:20px ;
+
+}
+.checkbox{
+    margin-top: 300px;
+    margin-left: 15;
+    font-size: 7rem;
+}
+input[type="radio"]{
+    margin-right: 10px;
+}
+
+label.label:hover{
+    color: #AFAFAF;
+}
+.create{
+    width: 400px;
+    height: 60px;
+    margin-top: 80px;
+    margin-left: 15px;
+    background-color: #3698FB;
+    border: 0;
+    font-size: 20px;
+    color: white;
+}
